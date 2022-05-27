@@ -8,15 +8,16 @@ In order to create a virtual enviroment: (This step need to be done only once)
 ``` 
 python3 -m venv camera_mouse_venv
 ``` 
-In order to activate the virtual enviroment: (This step need to be repeated)
+In order to activate the virtual enviroment under windows please follow the instruction here : https://python.land/virtual-environments/virtualenv 
+In order to activate the virtual enviroment under linux: (This step need to be repeated for every start)
 ``` 
-python3 -m venv camera_mouse_venv
+source camera_mouse_venv/bin/activate
 ``` 
-In order to install the required libraries:
+In order to install the required libraries: (This step need to be done only once)
 ``` 
   pip install -r requirements.txt
 ```
-In order to run the source execute the follwing command:
+In order to run the source execute the follwing command: (This step need to be repeated for every start)
 ```
    python3 camera-mouse.py
 ```
